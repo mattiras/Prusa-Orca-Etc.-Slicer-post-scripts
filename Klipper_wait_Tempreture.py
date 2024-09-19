@@ -55,7 +55,7 @@ with open(destFile, "w") as of:
                         oline = ("TEMPERATURE_WAIT SENSOR=%s MINIMUM=%s ; and wait for it to be reached\n" % (tool, temp - hyst))
                         
                         #Also waits temp to drop, like M109 does, comment or uncomment as needed
-                        #oline = ("TEMPERATURE_WAIT SENSOR=%s MINIMUM=%s MAXIMUM=%s ; and wait for it to be reached\n" % (tool, temp - hyst, temp + hyst))
+                        oline = ("TEMPERATURE_WAIT SENSOR=%s MINIMUM=%s MAXIMUM=%s ; and wait for it to be reached\n" % (tool, temp - hyst, temp + hyst))
                         
                        
             # Write original or altered line       
