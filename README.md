@@ -5,4 +5,4 @@ S parameter needs to be before T parameter.
 SET_HEATER_TEMPERATURE is also added to gcode so temp is set like M109 does.
 You can give script a hysteresis parameter, SET_HYSTERESIS= in start Gcode. If not defined, defaults to 1.
 You can use it like M109, wait temp to rise and also to drop, use as is.
-To wait only temp to raise, Comment out the corresponding line in the code.
+To wait temp only to raise, Comment out the corresponding line in the code.
